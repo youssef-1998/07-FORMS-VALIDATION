@@ -1,0 +1,75 @@
+body{ 
+    background-color: #343957;
+}
+main{
+    display: flex;
+    justify-content: center;
+   flex-direction: column;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+label{
+    font-family: "Comic Sans MS", cursive, sans-serif ;
+    color: azure;
+    text-size-adjust: 55px;
+}
+input{
+    margin-top: 10px;;
+    margin-bottom: 10px;
+    color: white;
+    font-size: 15px;
+    outline: none;
+}
+.zone-text{
+    background-color: #2c293c;
+    border-radius: 6px;
+    border: none;
+    height: 33px;
+    width: 260px;
+}
+textarea{
+    background-color: #2c293c;
+    border-radius: 6px;
+    border: none;
+    height: 55px;
+    width: 260px;
+    margin-top: 10px;
+}
+
+
+button{
+    background-color: transparent;
+    border: 2px solid coral;
+    border-radius: 6px;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    transition: .3s;
+    padding: 15px;
+    margin-top: 10px;
+    
+}
+.button{
+   display: flex;
+    flex-direction: column;
+    height: 30px;
+    width: 260px;
+}
+
+button:hover{
+    background: coral;
+    
+}
+
+.valid{
+    border: 2px solid green;
+}
+
+.invalid{
+    border: 2px solid red;
+}
